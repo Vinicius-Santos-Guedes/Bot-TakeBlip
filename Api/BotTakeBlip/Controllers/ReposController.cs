@@ -38,21 +38,26 @@ namespace BotTakeBlip.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest(new { Message = ex.Message } ?? new { Message = "não foi possível fazer a requisição na api do GitHub, por favor contate um administrador" });
             }
         }
+
 
         [HttpGet("{fullName}")]
         public async Task<ActionResult<List<Dtos.ReposDto>>> GetReposByFullName(string fullName)
         {
             try
             {
-                var repos = _repos.GetReposByFullName(_logger, fullName).AsDto(_urlHelper);
-                return Ok(repos);
+                var repos = _repos.GetReposByFullName(_logger, fullName);
+                if (repos is null)
+                    return NotFound();
+
+                return Ok(repos.AsDto(_urlHelper));
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+
+                return BadRequest(new { Message = ex.Message} ??new { Message= "não foi possível fazer a requisição na api do GitHub, por favor contate um administrador" });
             }
         }
     }

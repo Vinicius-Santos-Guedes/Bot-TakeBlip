@@ -1,8 +1,5 @@
-﻿using BotTakeBlip.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BotTakeBlip.Dtos.Responses;
+
 
 namespace BotTakeBlip.Dtos
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\BotTakeBlip\\BotTakeBlip\\BotTakeBlip.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\Bot\\Api\\BotTakeBlip\\BotTakeBlip.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\BotTakeBlip\\BotTakeBlip\\BotTakeBlip.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\Bot\\Api\\BotTakeBlip\\BotTakeBlip.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\BotTakeBlip\\BotTakeBlip\\BotTakeBlip.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Bot\\Api\\BotTakeBlip\\BotTakeBlip.csproj",
         "projectName": "BotTakeBlip",
-        "projectPath": "C:\\Users\\User\\source\\repos\\BotTakeBlip\\BotTakeBlip\\BotTakeBlip.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Bot\\Api\\BotTakeBlip\\BotTakeBlip.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\BotTakeBlip\\BotTakeBlip\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Bot\\Api\\BotTakeBlip\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,14 @@
             "RestSharp": {
               "target": "Package",
               "version": "[106.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

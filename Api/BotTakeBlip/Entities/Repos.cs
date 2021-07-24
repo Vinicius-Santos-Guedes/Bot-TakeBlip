@@ -113,5 +113,4 @@ namespace BotTakeBlip.Entities
         public string default_branch { get; set; }
     }
 
-
 }
