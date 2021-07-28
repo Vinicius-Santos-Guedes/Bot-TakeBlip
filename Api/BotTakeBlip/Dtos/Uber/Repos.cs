@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BotTakeBlip.Entities
+namespace BotTakeBlip.Dtos.Uber
 {
     public class Owner
     {

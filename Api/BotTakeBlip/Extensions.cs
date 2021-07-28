@@ -1,6 +1,6 @@
 ﻿using BotTakeBlip.Dtos;
 using BotTakeBlip.Dtos.Responses;
-using BotTakeBlip.Entities;
+using BotTakeBlip.Dtos.Uber;
 
 namespace BotTakeBlip
 {

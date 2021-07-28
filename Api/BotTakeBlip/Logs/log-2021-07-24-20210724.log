@@ -23,3 +23,8 @@ System.ArgumentNullException: {"message":"Not Found","documentation_url":"https:
 2021-07-24T20:56:37.4702434-03:00  [INF] Content root path: "C:\Users\User\Documents\GitHub\Bot\Api\BotTakeBlip" (b5d60022)
 2021-07-24T20:56:50.9986183-03:00 80000085-0000-fd00-b63f-84710c7967bb [INF] GetReposByFullName running :: info :: reposName faefwwe24324242 :: url https://api.github.com/repos/takenet/faefwwe24324242 (e71b31f0)
 2021-07-24T20:56:52.1618686-03:00 80000085-0000-fd00-b63f-84710c7967bb [INF] GetReposByFullName :: error : there is no such repository :: reposName {name} (90b56671)
+2021-07-24T21:09:57.6088452-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-07-24T21:09:57.6215224-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-07-24T21:09:57.6239848-03:00  [INF] Content root path: "C:\Users\User\Documents\GitHub\Bot\Api\BotTakeBlip" (b5d60022)
+2021-07-24T21:10:28.2612616-03:00 8000003b-0002-fc00-b63f-84710c7967bb [INF] ListRepos running :: info url https://api.github.com/users/takenet/repos?direction=asc&sort=created& (3a6d4b19)
+2021-07-24T21:10:29.5657402-03:00 8000003b-0002-fc00-b63f-84710c7967bb [INF] ListRepos ::  Successful (59c72fed)
